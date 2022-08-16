@@ -1,0 +1,373 @@
+* {  
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   text-decoration: none;
+   list-style: none;
+   outline: none;
+   border: none;
+}
+
+body {
+   font-family: 'Hind Siliguri';
+   color: #030D15;
+}
+
+.container {
+   max-width: 1180px;
+   margin: 0 auto;
+   padding: 0 20px;
+}
+
+.main {
+}
+
+/* header */
+.header {
+   width: 100%;
+   position: absolute;
+   top: 32px;
+}
+.header__container {
+   display: flex;
+   align-items: center;
+}
+.header__logo {
+   font-family: 'Hind Siliguri';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 39px;
+   text-transform: uppercase;
+   color: #0060FF;
+   transition: all 250ms ease;
+}
+.header__logo:hover {
+   transform: scale(1.2);
+}
+.header__menu {
+   margin: 0 0 0 177px;
+}
+.menu {
+}
+.menu__list {
+   display: flex;
+   align-items: center;
+}
+.menu__item {
+}
+.menu__item:not(:last-child) {
+   margin: 0 40px 0 0;
+}
+.menu__link {
+   font-family: 'Hind Siliguri';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 26px;
+   text-transform: uppercase;
+   color: #000000;
+   position: relative;
+   
+}
+.menu__link::after {
+   content: '';
+   position: absolute;
+   left: 0;
+   bottom: 1px;
+   width: 100%;
+   height: 2px;
+   background-color: #0060FF;
+   border-radius: 5px;
+   transform: scale(0);
+   transition: all 250ms ease;
+}
+.menu__link:hover::after {
+   transform: scale(1);
+}
+/* header */
+
+/* fast-work */
+.fast-work {
+   padding: 170px 0 0 0;
+   margin: 0 0 80px 0;
+}
+.fast-work__container {
+   display: flex;
+   align-items: center;
+}
+.fast-work__offer {
+   flex: 1 0 530px;
+   margin: 0 57px 0 0;
+}
+.fast-work__title {
+   font-family: 'Hind Siliguri';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 61px;
+   line-height: 73px;
+   color: #030D15;
+   margin: 0 0 20px 0;
+}
+.fast-work__title_blue {
+   padding: 0 10px;
+   display: inline-block;
+   font-family: 'Hind Siliguri';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 61px;
+   line-height: 73px;
+   color: #0060FF;
+   background-color: #E9F2F9;
+   border-radius: 10px;
+}
+.fast-work__title_padding {
+   display: block;
+   padding: 0 0 0 10px;
+}
+.fast-work__description {
+   font-family: 'Hind Siliguri';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 27px;
+   color: #030D15;
+   margin: 0 0 30px 0;
+   padding: 0 0 0 10px;
+}
+.fast-work__button {
+   display: inline-block;
+   padding: 12px 18px;
+   font-family: 'Hind Siliguri';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 26px;
+   text-transform: uppercase;
+   color: #FFFFFF;
+   background-color: #8CB3F4;
+   border-radius: 10px;
+   margin: 0 0 0 10px;
+   transition: all 300ms ease;
+}
+.fast-work__button:hover {
+   background-color: #0060FF;
+}
+.fast-work__image {
+   
+}
+.fast-work__image img {
+   max-width: 100%;
+}
+/* fast-work */
+
+/* about */
+.about {
+   margin: 0 0 50px 0;
+}
+.about__container {
+}
+.about__header {
+   margin: 0 0 40px 0;
+}
+.about__title {
+   font-family: 'Hind Siliguri';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 32px;
+   line-height: 52px;
+   text-transform: uppercase;
+   color: #0060FF;
+   margin: 0 0 20px 0;
+   text-align: center;
+}
+.about__subtitle {
+   font-family: 'Hind Siliguri';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 32px;
+   text-align: center;
+   text-transform: uppercase;
+   color: #0060FF;
+   max-width: 771px;
+   margin: 0 auto;
+}
+.about__row {
+   display: flex;
+   column-gap: 100px;
+   row-gap: 50px;
+}
+.about__item-about {
+
+}
+.item-about {
+   flex: 0 1 50%;
+   background-color: #F4F9FC;
+   border-radius: 20px;
+   padding: 20px 55px 45px 55px;
+   transition: all 250ms ease;
+}
+.item-about:hover {
+   box-shadow: 0 0 10px rgb(104,161,255,0.3);
+}
+.item-about_blue {
+   background-color: rgba(140, 179, 244, 0.5);
+}
+.item-about__title {
+   font-family: 'Hind Siliguri';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 32px;
+   line-height: 52px;
+   text-transform: uppercase;
+   text-align: center;
+   color: #0060FF;
+   margin: 0 0 20px 0;
+}
+.item-about__title_white {
+   color: #fff;
+}
+.item-about__subtitle {
+   font-family: 'Hind Siliguri';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 32px;
+   text-align: center;
+   text-transform: uppercase;
+   color: #0060FF;
+}
+.item-about__subtitle_white {
+   color: #fff;
+}
+/* about */
+
+/* job-openings */
+.job-openings {
+   margin: 0 0 80px 0;
+}
+.job-openings__container {
+}
+.job-openings__title {
+   font-family: 'Hind Siliguri';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 32px;
+   line-height: 52px;
+   text-transform: uppercase;
+   color: #0060FF;
+   text-align: center;
+   margin: 0 0 30px 0;
+}
+.job-openings__row {
+   display: flex;
+   flex-wrap: wrap;
+   row-gap: 20px;
+}
+.job-openings__item-job-openings {
+   padding: 20px;
+}
+.item-job-openings {
+   flex: 1 1 100%;
+   border: 1px solid #0060FF;
+   border-radius: 20px;
+   transition: all 250ms ease;
+}
+.item-job-openings:hover {
+   transform: scale(1.05);
+}
+.item-job-openings_blue {
+   background-color: #F4F9FC;
+   border: none;
+}
+.item-job-openings__header {
+   display: flex;
+   justify-content: space-between;
+   margin: 0 0 20px 0;
+}
+.item-job-openings__info {
+   flex: 0 1 520px;
+}
+.item-job-openings__title {
+   flex: 1 1 auto;
+   font-family: 'Hind Siliguri';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 32px;
+   line-height: 52px;
+   text-transform: uppercase;
+   color: #0060FF;
+}
+.item-job-openings__company {
+   font-family: 'Hind Siliguri';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 39px;
+   text-transform: uppercase;
+   color: #0060FF;
+   margin: 0 20px 0 0;
+   display: inline-block;
+}
+.item-job-openings__city {
+   font-family: 'Hind Siliguri';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 39px;
+   text-transform: uppercase;
+   color: #0060FF;
+   display: inline-block;
+}
+.item-job-openings__salary {
+   display: flex;
+}
+.item-job-openings__counter {
+   font-family: 'Hind Siliguri';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 39px;
+   text-transform: uppercase;
+   color: #0060FF;
+   margin: 0 15px 0 0;
+}
+.item-job-openings__number {
+   font-family: 'Hind Siliguri';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 39px;
+   text-transform: uppercase;
+   color: #0060FF;
+}
+.item-job-openings__description {
+   font-family: 'Hind Siliguri';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 32px;
+   text-transform: uppercase;
+   color: #0060FF;
+}
+/* job-openings */
+
+/* footer */
+.footer {
+   background-color: #8CB3F4;
+   padding: 20px 0;
+}
+.footer__container {
+}
+.footer__text {
+   font-family: 'Hind Siliguri';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 32px;
+   text-align: center;
+   text-transform: uppercase;
+   color: #fff;
+}
+/* footer */
